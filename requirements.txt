@@ -29,3 +29,5 @@ tenacity
 tgCrypto
 urllib3
 yt-dlp
+cloudscraper
+selenium
