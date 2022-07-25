@@ -31,3 +31,6 @@ urllib3
 yt-dlp
 cloudscraper
 selenium
+urllib3==1.26.5
+wget==3.2
+telegram==0.0.1
