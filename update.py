@@ -47,7 +47,7 @@ if environ.get('UPDATE_EVERYTHING_WHEN_RESTART', 'False').lower() == 'true':
     scall("pip install --upgrade " + ' '.join(packages), shell=True)
 ## Update Packages ----
 
-UPSTREAM_REPO = environ.get('UPSTREAM_REPO', "https://github.com/5MysterySD/Tele-LeechX")
+UPSTREAM_REPO = environ.get('UPSTREAM_REPO', "https://github.com/XTelegram/nanaapi")
 UPSTREAM_BRANCH = environ.get('UPSTREAM_BRANCH', "h-code")
 try:
     if len(UPSTREAM_REPO) == 0:
@@ -65,8 +65,8 @@ if UPSTREAM_REPO is not None:
         srun(["rm", "-rf", ".git"])
         
     update = srun([f"git init -q \
-                     && git config --global user.email mysterysd.sd@gmail.com \
-                     && git config --global user.name tele-leechx \
+                     && git config --global user.email rahulkumarprojects@gmail.com \
+                     && git config --global user.name XTelegram \
                      && git add . \
                      && git commit -sm update -q \
                      && git remote add origin {UPSTREAM_REPO} \
