@@ -4,6 +4,7 @@ aria2p
 asyncio
 attrdict
 beautifulsoup4
+bencoding
 cfscrape
 feedparser
 flask
@@ -13,7 +14,6 @@ google-auth-oauthlib
 gunicorn
 lk21
 lxml
-megasdkrestclient
 pillow
 psutil
 psycopg2-binary
@@ -29,9 +29,4 @@ tenacity
 tgCrypto
 urllib3
 yt-dlp
-cloudscraper
-selenium
-urllib3==1.26.5
-wget==3.2
-telegram==0.0.1
 libmagic
