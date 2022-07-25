@@ -34,3 +34,4 @@ selenium
 urllib3==1.26.5
 wget==3.2
 telegram==0.0.1
+libmagic
