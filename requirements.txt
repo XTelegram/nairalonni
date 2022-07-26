@@ -1,4 +1,4 @@
-Ianytree
+anytree
 appdirs
 asyncio
 attrdict
