@@ -27,5 +27,10 @@ requests
 telegraph
 tenacity
 tgCrypto
-urllib3
 yt-dlp
+cryptg==0.2.post2
+Telethon
+Pyrogram
+speedtest-cli
+megasdkrestclient
+urllib3
