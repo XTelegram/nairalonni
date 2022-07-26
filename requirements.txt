@@ -1,4 +1,4 @@
-anytree
+Ianytree
 appdirs
 asyncio
 attrdict
@@ -30,4 +30,5 @@ python-dotenv
 requests
 megasdkrestclient
 qbittorrent-api
+urllib3
 https://github.com/Ripeey/Conversation-Pyrogram/archive/refs/heads/main.zip
