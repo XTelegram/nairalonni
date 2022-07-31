@@ -1,5 +1,3 @@
-FROM ritnov/tlx:test-2
-
 FROM maverick9099/mh:heroku
 
 WORKDIR /usr/src/app
