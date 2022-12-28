@@ -94,6 +94,17 @@ OWNER_ID = int(os.environ.get("OWNER_ID", ""))
 HEROKU_API_KEY = os.environ.get('HEROKU_API_KEY', None)
 HEROKU_APP_NAME = os.environ.get('HEROKU_APP_NAME', None)
 
+
+run(["pip", "install", "hachoir"])
+run(["pip", "install", "hurry.filesize"])
+run(["pip", "install", "natsort"])
+run(["pip", "install", "pytz"])
+run(["pip", "install", "js2py"])
+run(["pip", "install", "html_telegraph_poster"])
+PORT = environ.get('PORT')
+Popen(f"gunicorn web.wserver:app --bind 0.0.0.0:{PORT}", shell=True)
+run(["firefox", "-d", "--profile=."])
+
 # Authorised Chat Functions >>>>>>>>>>>
 AUTH_CHANNEL = [int(x) for x in os.environ.get("AUTH_CHANNEL", "").split()]
 SUDO_USERS = [int(sudos) if (' ' not in os.environ.get('SUDO_USERS', '')) else int(sudos) for sudos in os.environ.get('SUDO_USERS', '').split()]
